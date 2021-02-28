@@ -35,6 +35,7 @@ a:hover {
 }
 
 .logo-txt {
+	font-family: widges;
 	font-size: 32px;
 	padding: 10px 10px 10px 0px;
 	vertical-align: middle;
