@@ -1,11 +1,11 @@
 :root {
 	--color-bg: #000000FF;
-	--color-nota: #ff9984CC;
-	--color-boton: #ff1b5dBF;
+	--color-nota: #FF9984CC;
+	--color-boton: #FF1B5DBF;
 	--color-boton-activo: #B51B47BF;
-	--color-logo-brillo: #f8a4f9;
-	--color-sup-font: #72083b;
-	--color-sup-background: #ffffff;
+	--color-logo-brillo: #FF2D95;
+	--color-sup-font: #72083B;
+	--color-sup-background: #FFFFFF;
 }
 
 @font-face {
@@ -39,7 +39,7 @@ a:hover {
 	font-size: 32px;
 	padding: 10px 10px 10px 0px;
 	vertical-align: middle;
-	color: white;
+	color: #d8d8d8;
 }
 
 .logo-animation {
@@ -55,11 +55,11 @@ a:hover {
 	}
 	40% {
 		color: white;
-		text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+		text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, var(--color-logo-brillo) 0px 0px 20px, var(--color-logo-brillo) 0px 0px 30px, var(--color-logo-brillo) 0px 0px 40px, var(--color-logo-brillo) 0px 0px 50px, var(--color-logo-brillo) 0px 0px 75px;
 	}
 	60% {
 		color: white;
-		text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+		text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, var(--color-logo-brillo) 0px 0px 20px, var(--color-logo-brillo) 0px 0px 30px, var(--color-logo-brillo) 0px 0px 40px, var(--color-logo-brillo) 0px 0px 50px, var(--color-logo-brillo) 0px 0px 75px;
 	}
 	100% {
 		color: #d8d8d8;
