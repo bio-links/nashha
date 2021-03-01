@@ -2,7 +2,8 @@
 	--color-bg: #000000FF;
 	--color-nota: #FF9984CC;
 	--color-boton: #FF1B5DBF;
-	--color-boton-activo: #B51B47BF;
+	--color-boton-activo: #6B0724BF;
+	--color-zfill: #400414;
 	--color-logo-brillo: #FF2D95;
 	--color-sup-font: #72083B;
 	--color-sup-background: #FFFFFF;
@@ -147,6 +148,14 @@ a:hover {
 
 .counters {
 	font-family: consolas;
+	padding: 5px 8px;
+	background-color: var(--color-boton-activo);
+	border-radius: 0.2em;
+}
+
+.zfill {
+	color: var(--color-zfill);
+	font-weight: bold;
 }
 
 .nota {
