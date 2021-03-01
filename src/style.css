@@ -145,6 +145,10 @@ a:hover {
 	}
 }
 
+.counters {
+	font-family: consolas;
+}
+
 .nota {
 	font-size: 12px;
 	font-family: Karla;
